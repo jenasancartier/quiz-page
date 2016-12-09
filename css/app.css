@@ -29,7 +29,7 @@ button:active, input[type="button"]:active, input[type="reset"]:active, input[ty
 
 .first::after, .second::after, .third::after, .fourth::after {
   content: "";
-  opacity: 0.6;
+  opacity: 0.4;
   top: 0;
   left: 0;
   bottom: 0;
@@ -49,7 +49,7 @@ button:active, input[type="button"]:active, input[type="reset"]:active, input[ty
   font-family: 'OpenSans'; }
 
 body {
-  background: #F8F8F8;
+  background: #f0f0f0;
   -webkit-font-smoothing: antialiased; }
 
 h3 {
@@ -57,7 +57,7 @@ h3 {
   color: purple;
   text-align: center;
   padding: 20px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid teal;
   background: white; }
 
 .first, .second, .third, .fourth {
@@ -89,22 +89,30 @@ h3 {
         margin-right: 0; } }
 
 .first {
-  background: #176948; }
+  background-color: #FD9446;
+  background-image: -webkit-linear-gradient(#FD9446, #D03986);
+  background-image: linear-gradient(#FD9446, #D03986); }
   .first::after {
     background-image: url("../img/coast.jpg"); }
 
 .second {
-  background: #4D891F; }
+  background-color: #2A9898;
+  background-image: -webkit-linear-gradient(#2A9898, #5140AF);
+  background-image: linear-gradient(#2A9898, #5140AF); }
   .second::after {
-    background-image: url("../img/stag.jpg"); }
+    background-image: url("../img/crystal.jpg"); }
 
 .third {
-  background: #8B1F3E; }
+  background-color: #2FAC7A;
+  background-image: -webkit-linear-gradient(#2FAC7A, #C5F042);
+  background-image: linear-gradient(#2FAC7A, #C5F042); }
   .third::after {
     background-image: url("../img/plant.jpg"); }
 
 .fourth {
-  background: #9A4622; }
+  background-color: #5140AF;
+  background-image: -webkit-linear-gradient(#5140AF, #D03986);
+  background-image: linear-gradient(#5140AF, #D03986); }
   .fourth::after {
     background-image: url("../img/glasses.jpg"); }
 
@@ -134,7 +142,7 @@ h3 {
   position: absolute;
   transform: translate(-50%, 0);
   width: 100%;
-  bottom: 0px;
+  bottom: 60px;
   left: 50%; }
   .text-box h4, .text-box p {
     font-size: 13px;
@@ -144,11 +152,13 @@ h3 {
 
 button {
   position: absolute;
-  top: 10px;
+  bottom: 15px;
   left: 50%;
   transform: translate(-50%, 0);
-  width: 50%;
-  border-radius: 30px; }
+  width: 150px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none; }
 
 @font-face {
   font-family: "OpenSans";

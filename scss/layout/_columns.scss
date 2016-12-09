@@ -11,7 +11,7 @@
 }
 
 .first {
-  background: #176948;
+  @include linear-gradient($cantelope, $fuschia);
   @extend %opacity;
   &::after {
     @extend %after;
@@ -21,17 +21,17 @@
 }
 
 .second {
-  background: #4D891F;
-    @extend %opacity;
+  @include linear-gradient($teal, $indigo);
+  @extend %opacity;
   &::after {
     @extend %after;
-    background-image: url('#{$path-img}/stag.jpg');
+    background-image: url('#{$path-img}/crystal.jpg');
     @extend %image-control;
   }
 }
 
 .third {
-  background: #8B1F3E;
+  @include linear-gradient($green, $yellow);
   @extend %opacity;
   &::after {
     @extend %after;
@@ -41,7 +41,7 @@
 }
 
 .fourth {
-  background: #9A4622;
+  @include linear-gradient($indigo, $fuschia);
   @extend %opacity;
   &::after {
     @extend %after;
