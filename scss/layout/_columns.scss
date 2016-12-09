@@ -1,7 +1,6 @@
 .first, .second, .third, .fourth {
   @extend %columns;
   @include outer-container(100%);
-  border: 1px solid black;
   @include span-columns(3);
    @media #{$break-tablet} {
     @include span-columns(6);
@@ -13,14 +12,43 @@
 }
 
 .first {
-  @extend %image-control;
-  background-image: url('#{$path-img}/split.jpg')
-  // background: tomato;
-  // &::after {
-  //   @extend %after;
-  //   @extend %opacity;
-  //   background-image: url('#{$path-img}/split.jpg');
-  // }
+  background: pink;
+  @extend %opacity;
+  &::after {
+    @extend %after;
+    background-image: url('#{$path-img}/bug.jpg');
+    @extend %image-control;
+  }
+}
+
+.second {
+  background: pink;
+  @extend %opacity;
+  &::after {
+    @extend %after;
+    background-image: url('#{$path-img}/tiger.jpg');
+    @extend %image-control;
+  }
+}
+
+.third {
+  background: red;
+  @extend %opacity;
+  &::after {
+    @extend %after;
+    background-image: url('#{$path-img}/past.jpg');
+    @extend %image-control;
+  }
+}
+
+.fourth {
+  background: orange;
+  @extend %opacity;
+  &::after {
+    @extend %after;
+    background-image: url('#{$path-img}/glasses.jpg');
+    @extend %image-control;
+  }
 }
 
 .row {
