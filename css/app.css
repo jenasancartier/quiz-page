@@ -15,11 +15,18 @@ h1 {
   color: #369; }
 
 .first, .second, .third, .fourth {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid black;
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 23.23176%; }
+  .first::after, .second::after, .third::after, .fourth::after {
+    clear: both;
+    content: "";
+    display: block; }
   .first:last-child, .second:last-child, .third:last-child, .fourth:last-child {
     margin-right: 0; }
   @media (max-width: 800px) {
@@ -27,9 +34,13 @@ h1 {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 65.88078%; }
+      width: 48.82117%; }
       .first:last-child, .second:last-child, .third:last-child, .fourth:last-child {
-        margin-right: 0; } }
+        margin-right: 0; }
+      .first:nth-child(2n), .second:nth-child(2n), .third:nth-child(2n), .fourth:nth-child(2n) {
+        margin-right: 0; }
+      .first:nth-child(2n+1), .second:nth-child(2n+1), .third:nth-child(2n+1), .fourth:nth-child(2n+1) {
+        clear: left; } }
   @media (max-width: 425px) {
     .first, .second, .third, .fourth {
       float: left;
@@ -38,6 +49,10 @@ h1 {
       width: 100%; }
       .first:last-child, .second:last-child, .third:last-child, .fourth:last-child {
         margin-right: 0; } }
+
+.row {
+  display: block;
+  margin: auto; }
 
 .column {
   float: left;
