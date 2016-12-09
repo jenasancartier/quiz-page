@@ -1,5 +1,5 @@
 # [Quiz Page](https://jenasancartier.github.io/quiz-page/)
-![project screenshot](/img/screenshot.png)
+<!-- ![project screenshot](/img/screenshot.png) -->
 
 __Version 1: December 9, 2016__
 ## by [J'ena SanCartier](https://github.com/jenasancartier)
