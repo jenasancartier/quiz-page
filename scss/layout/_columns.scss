@@ -25,7 +25,7 @@
     @extend %opacity;
   &::after {
     @extend %after;
-    background-image: url('#{$path-img}/tiger.jpg');
+    background-image: url('#{$path-img}/stag.jpg');
     @extend %image-control;
   }
 }
@@ -41,7 +41,7 @@
 }
 
 .fourth {
-  background: orange;
+  background: pink;
   @extend %opacity;
   &::after {
     @extend %after;
