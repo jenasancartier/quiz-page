@@ -18,7 +18,7 @@ html {
 
 .first::after, .second::after, .third::after, .fourth::after {
   content: "";
-  opacity: 0.5;
+  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
@@ -27,7 +27,7 @@ html {
   z-index: -1; }
 
 .first, .second, .third, .fourth {
-  opacity: .7; }
+  opacity: .8; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -75,19 +75,19 @@ h1 {
         margin-right: 0; } }
 
 .first {
-  background: pink; }
+  background: aliceblue; }
   .first::after {
-    background-image: url("../img/bug.jpg"); }
+    background-image: url("../img/coast.jpg"); }
 
 .second {
-  background: pink; }
+  background: teal; }
   .second::after {
     background-image: url("../img/tiger.jpg"); }
 
 .third {
-  background: red; }
+  background: gray; }
   .third::after {
-    background-image: url("../img/past.jpg"); }
+    background-image: url("../img/plant.jpg"); }
 
 .fourth {
   background: orange; }

@@ -12,18 +12,18 @@
 }
 
 .first {
-  background: pink;
+  background: aliceblue;
   @extend %opacity;
   &::after {
     @extend %after;
-    background-image: url('#{$path-img}/bug.jpg');
+    background-image: url('#{$path-img}/coast.jpg');
     @extend %image-control;
   }
 }
 
 .second {
-  background: pink;
-  @extend %opacity;
+  background: teal;
+    @extend %opacity;
   &::after {
     @extend %after;
     background-image: url('#{$path-img}/tiger.jpg');
@@ -32,11 +32,11 @@
 }
 
 .third {
-  background: red;
+  background: gray;
   @extend %opacity;
   &::after {
     @extend %after;
-    background-image: url('#{$path-img}/past.jpg');
+    background-image: url('#{$path-img}/plant.jpg');
     @extend %image-control;
   }
 }
