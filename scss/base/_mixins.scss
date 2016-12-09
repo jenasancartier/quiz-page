@@ -1,3 +1,23 @@
+//fonts
+@mixin font-face($family, $file) {
+  @font-face {
+      font-family: $family;
+      src:  url('#{$path-font}/#{$file}-Regular.ttf') format('truetype');
+      font-weight: 400;
+  }
+  @font-face {
+      font-family: $family;
+      src:  url('#{$path-font}/#{$file}-Bold.ttf') format('truetype');
+      font-weight: 700;
+  }
+  @font-face {
+      font-family: $family;
+      src:  url('#{$path-font}/#{$file}-Light.ttf') format('truetype');
+      font-weight: 300;
+  }
+}
+
+
 @mixin text($size, $color, $align) {
   font-size: $size;
   color: $color;

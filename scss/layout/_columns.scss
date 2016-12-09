@@ -11,7 +11,7 @@
 }
 
 .first {
-  background: aliceblue;
+  background: #176948;
   @extend %opacity;
   &::after {
     @extend %after;
@@ -21,7 +21,7 @@
 }
 
 .second {
-  background: lightyellow;
+  background: #4D891F;
     @extend %opacity;
   &::after {
     @extend %after;
@@ -31,7 +31,7 @@
 }
 
 .third {
-  background: gray;
+  background: #8B1F3E;
   @extend %opacity;
   &::after {
     @extend %after;
@@ -41,7 +41,7 @@
 }
 
 .fourth {
-  background: pink;
+  background: #9A4622;
   @extend %opacity;
   &::after {
     @extend %after;
@@ -57,6 +57,6 @@
 
 .column {
   float: left;
-  padding: 3em;
+  padding: 1em;
   min-height: 100px;
 }

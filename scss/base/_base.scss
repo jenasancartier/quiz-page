@@ -2,10 +2,12 @@
   @include box-sizing(border-box);
   margin: 0;
   padding: 0;
+  font-family: 'OpenSans';
 }
 
 body {
   background: #F8F8F8;
+  -webkit-font-smoothing: antialiased;
 }
 
 h3 {

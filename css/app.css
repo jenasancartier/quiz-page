@@ -4,6 +4,17 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  background-color: white;
+  padding: 10px; }
+
+button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus,
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+  background-color: #0f0; }
+
+button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
+  background-color: #00f; }
+
 .first, .second, .third, .fourth {
   height: 400px;
   width: auto;
@@ -34,10 +45,12 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: 'OpenSans'; }
 
 body {
-  background: #F8F8F8; }
+  background: #F8F8F8;
+  -webkit-font-smoothing: antialiased; }
 
 h3 {
   font-size: 20px;
@@ -76,22 +89,22 @@ h3 {
         margin-right: 0; } }
 
 .first {
-  background: aliceblue; }
+  background: #176948; }
   .first::after {
     background-image: url("../img/coast.jpg"); }
 
 .second {
-  background: lightyellow; }
+  background: #4D891F; }
   .second::after {
     background-image: url("../img/stag.jpg"); }
 
 .third {
-  background: gray; }
+  background: #8B1F3E; }
   .third::after {
     background-image: url("../img/plant.jpg"); }
 
 .fourth {
-  background: pink; }
+  background: #9A4622; }
   .fourth::after {
     background-image: url("../img/glasses.jpg"); }
 
@@ -101,7 +114,7 @@ h3 {
 
 .column {
   float: left;
-  padding: 3em;
+  padding: 1em;
   min-height: 100px; }
 
 .wrapper {
@@ -113,5 +126,33 @@ h3 {
     clear: both;
     content: "";
     display: block; }
+
+.column {
+  position: relative; }
+
+.text-box {
+  font-size: 14px;
+  background: white;
+  opacity: 0.7;
+  border-radius: 3px;
+  position: absolute;
+  transform: translate(-50%, 0);
+  width: 96%;
+  bottom: 5px;
+  left: 50%;
+  padding: 15px; }
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../../fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: 400; }
+@font-face {
+  font-family: "OpenSans";
+  src: url("../../fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: 700; }
+@font-face {
+  font-family: "OpenSans";
+  src: url("../../fonts/OpenSans-Light.ttf") format("truetype");
+  font-weight: 300; }
 
 /*# sourceMappingURL=app.css.map */
