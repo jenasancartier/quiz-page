@@ -17,8 +17,8 @@
   }
 }
 
-
-@mixin text($size, $color, $align) {
+// custom text mixin
+@mixin text($size, $color, $align:null) {
   font-size: $size;
   color: $color;
   text-align: $align;

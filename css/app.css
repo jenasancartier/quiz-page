@@ -14,7 +14,7 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
   color: white; }
 
 button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
-  background-color: #00f; }
+  background-color: darkorange; }
 
 .first, .second, .third, .fourth {
   height: 550px;
@@ -140,29 +140,27 @@ body {
   left: 50%;
   background-color: rgba(255, 255, 255, 0.3); }
   .text-box h4, .text-box p {
-    color: #00001a;
     font-size: 20px;
+    color: black;
     text-align: center;
     padding: 8px; }
 
 .footer {
   background: #333;
   padding: 10px;
-  margin-top: 30px; }
+  margin-top: 40px; }
 
 .footer img {
   display: block;
   margin: auto; }
 
 h3 {
-  font-size: 20px;
-  color: purple;
+  font-size: 25px;
+  color: white;
   text-align: center;
   padding: 20px;
   border-bottom: 1px solid teal;
-  background: #333;
-  color: white;
-  font-size: 30px; }
+  background: #333; }
 
 button {
   position: absolute;

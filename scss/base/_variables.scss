@@ -11,6 +11,8 @@ $fuschia: #D03986;
 $ocean: #3571A3;
 $lime: #6BD93C;
 
+$special: darkorange;
+
 $background: #333;
 
 
@@ -38,5 +40,5 @@ $path-font: '../../fonts';
 }
 
 #{$all-buttons-active} {
-  background-color: #00f;
+  background-color: $special;
 }

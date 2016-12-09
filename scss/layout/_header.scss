@@ -1,8 +1,6 @@
 h3 {
-  @include text($size:20px, $color:purple, $align:center);
+  @include text(25px, white, center);
   padding: 20px;
   border-bottom: 1px solid teal;
   background: $background;
-  color: white;
-  font-size: 30px;
 }

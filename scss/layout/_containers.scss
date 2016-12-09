@@ -15,9 +15,7 @@
   left: 50%;
   background-color: rgba(255, 255, 255, 0.3);
   h4, p {
-    color: #00001a;
-    font-size: 20px;
-    text-align: center;
+    @include text(20px, black, center);
     padding: 8px;
   }
 }
