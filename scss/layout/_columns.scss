@@ -1,6 +1,5 @@
 .first, .second, .third, .fourth {
   @extend %columns;
-  @include outer-container(100%);
   @include span-columns(3);
    @media #{$break-tablet} {
     @include span-columns(6);
@@ -22,7 +21,7 @@
 }
 
 .second {
-  background: teal;
+  background: lightyellow;
     @extend %opacity;
   &::after {
     @extend %after;

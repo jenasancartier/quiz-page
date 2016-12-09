@@ -5,6 +5,8 @@
 }
 
 
-h1 {
-  color: $color;
+h3 {
+  @include text($size:20px, $color:purple, $align:center);
+  padding: 20px;
+  border-bottom: 2px solid black;
 }
