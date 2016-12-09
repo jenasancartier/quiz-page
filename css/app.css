@@ -1,4 +1,47 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
 h1 {
   color: #369; }
+
+.first, .second, .third, .fourth {
+  border: 1px solid black;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%; }
+  .first:last-child, .second:last-child, .third:last-child, .fourth:last-child {
+    margin-right: 0; }
+  @media (max-width: 800px) {
+    .first, .second, .third, .fourth {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      .first:last-child, .second:last-child, .third:last-child, .fourth:last-child {
+        margin-right: 0; } }
+  @media (max-width: 425px) {
+    .first, .second, .third, .fourth {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .first:last-child, .second:last-child, .third:last-child, .fourth:last-child {
+        margin-right: 0; } }
+
+.column {
+  float: left;
+  padding: 3em;
+  min-height: 100px; }
 
 /*# sourceMappingURL=app.css.map */

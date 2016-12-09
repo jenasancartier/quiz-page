@@ -1,0 +1,26 @@
+// .first, .second, .third, .fourth {
+//   @include span-columns(3 of 12);
+//   // @extend %columns;
+//   border: 1px solid black;
+//   height: 400px;
+//   @media #{$break-tablet} {
+//     @include span-columns(6 of 12)
+//   }
+// }
+
+.first, .second, .third, .fourth {
+  border: 1px solid black;
+  @include span-columns(3);
+   @media #{$break-tablet} {
+    @include span-columns(8);
+  }
+  @media #{$break-mobile} {
+    @include span-columns(12);
+  }
+}
+
+.column {
+  float: left;
+  padding: 3em;
+  min-height: 100px;
+}
