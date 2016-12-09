@@ -6,13 +6,7 @@
 }
 
 body {
-  background: darken(#F8F8F8, 3%);
-  -webkit-font-smoothing: antialiased;
-}
-
-h3 {
-  @include text($size:20px, $color:purple, $align:center);
-  padding: 20px;
-  border-bottom: 1px solid teal;
+  // background: darken(#F8F8F8, 3%);
   background: white;
+  -webkit-font-smoothing: antialiased;
 }

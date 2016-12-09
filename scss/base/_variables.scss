@@ -11,6 +11,8 @@ $fuschia: #D03986;
 $ocean: #3571A3;
 $lime: #6BD93C;
 
+$background: #333;
+
 
 // grid
 $grid-columns: 12;
@@ -31,7 +33,8 @@ $path-font: '../../fonts';
 
 #{$all-buttons-focus},
 #{$all-buttons-hover} {
-  background-color: #0f0;
+  background-color: black;
+  color: white;
 }
 
 #{$all-buttons-active} {

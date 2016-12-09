@@ -4,6 +4,7 @@
    @media #{$break-tablet} {
     @include span-columns(6);
     @include omega(2n);
+    height: 390px;
   }
   @media #{$break-mobile} {
     @include span-columns(12);
