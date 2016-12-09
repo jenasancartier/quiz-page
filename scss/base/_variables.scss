@@ -1,8 +1,12 @@
-$grid-columns: 12;
-
 // colors
 $color: #369;
 
+// grid
+$grid-columns: 12;
+
 // media queries
-$break-tablet: '(max-width: 800px)';
+$break-tablet: '(max-width: 920px)';
 $break-mobile: '(max-width: 425px)';
+
+// asset paths
+$path-img: '../img';

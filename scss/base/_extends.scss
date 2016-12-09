@@ -1,7 +1,40 @@
 %columns {
-  height: 600px;
+  height: 400px;
+  width: auto;
   margin-top: 15px;
   width: auto;
   display: block;
   position: relative;
+}
+
+//image control
+%image-control {
+  background-size: cover;
+  background-position: center;
+}
+
+// after
+%after {
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+// position
+%position {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
+
+// opacity
+%opacity {
+  opacity: .5;
 }

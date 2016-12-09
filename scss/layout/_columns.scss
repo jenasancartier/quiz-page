@@ -1,15 +1,5 @@
-// .first, .second, .third, .fourth {
-//   @include span-columns(3 of 12);
-//   // @extend %columns;
-//   border: 1px solid black;
-//   height: 400px;
-//   @media #{$break-tablet} {
-//     @include span-columns(6 of 12)
-//   }
-// }
-
 .first, .second, .third, .fourth {
-  // @extend %columns;
+  @extend %columns;
   @include outer-container(100%);
   border: 1px solid black;
   @include span-columns(3);
@@ -20,6 +10,17 @@
   @media #{$break-mobile} {
     @include span-columns(12);
   }
+}
+
+.first {
+  @extend %image-control;
+  background-image: url('#{$path-img}/split.jpg')
+  // background: tomato;
+  // &::after {
+  //   @extend %after;
+  //   @extend %opacity;
+  //   background-image: url('#{$path-img}/split.jpg');
+  // }
 }
 
 .row {
