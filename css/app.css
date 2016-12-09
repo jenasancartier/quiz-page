@@ -87,14 +87,14 @@ body {
   background-image: -webkit-linear-gradient(#FD9446, #D03986);
   background-image: linear-gradient(#FD9446, #D03986); }
   .first::after {
-    background-image: url("../img/coast.jpg"); }
+    background-image: url("../img/tiger.jpg"); }
 
 .second {
   background-color: #2A9898;
   background-image: -webkit-linear-gradient(#2A9898, #5140AF);
   background-image: linear-gradient(#2A9898, #5140AF); }
   .second::after {
-    background-image: url("../img/crystal.jpg"); }
+    background-image: url("../img/crystals.jpg"); }
 
 .third {
   background-color: #2FAC7A;

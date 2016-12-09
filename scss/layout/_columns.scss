@@ -16,7 +16,7 @@
   @extend %opacity;
   &::after {
     @extend %after;
-    background-image: url('#{$path-img}/coast.jpg');
+    background-image: url('#{$path-img}/tiger.jpg');
     @extend %image-control;
   }
 }
@@ -26,7 +26,7 @@
   @extend %opacity;
   &::after {
     @extend %after;
-    background-image: url('#{$path-img}/crystal.jpg');
+    background-image: url('#{$path-img}/crystals.jpg');
     @extend %image-control;
   }
 }
