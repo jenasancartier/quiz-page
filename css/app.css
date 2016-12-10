@@ -175,27 +175,27 @@ button {
 
 @font-face {
   font-family: "Quicksand";
-  src: url("../../fonts/Quicksand-Regular.ttf") format("truetype");
+  src: url("../fonts/Quicksand-Regular.ttf") format("truetype");
   font-weight: 400; }
 @font-face {
   font-family: "Quicksand";
-  src: url("../../fonts/Quicksand-Bold.ttf") format("truetype");
+  src: url("../fonts/Quicksand-Bold.ttf") format("truetype");
   font-weight: 700; }
 @font-face {
   font-family: "Quicksand";
-  src: url("../../fonts/Quicksand-Light.ttf") format("truetype");
+  src: url("../fonts/Quicksand-Light.ttf") format("truetype");
   font-weight: 300; }
 @font-face {
   font-family: "OpenSans";
-  src: url("../../fonts/OpenSans-Regular.ttf") format("truetype");
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
   font-weight: 400; }
 @font-face {
   font-family: "OpenSans";
-  src: url("../../fonts/OpenSans-Bold.ttf") format("truetype");
+  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
   font-weight: 700; }
 @font-face {
   font-family: "OpenSans";
-  src: url("../../fonts/OpenSans-Light.ttf") format("truetype");
+  src: url("../fonts/OpenSans-Light.ttf") format("truetype");
   font-weight: 300; }
 
 /*# sourceMappingURL=app.css.map */
